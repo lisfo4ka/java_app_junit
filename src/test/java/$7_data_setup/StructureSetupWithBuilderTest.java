@@ -20,7 +20,7 @@ public class StructureSetupWithBuilderTest {
 
         String epitaph = epitaphWriter.epitaphFor(anyHero);
 
-        assertThat(epitaph).isEqualTo("Batman is dead");
+        assertThat(epitaph).isEqualTo("batman is dead");
     }
 
 
